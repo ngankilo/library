@@ -1,0 +1,41 @@
+{
+  "name": "library",
+  "version": "1.0.0",
+  "description": "Esports library",
+  "main": "http.js",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/ngankilo/library"
+  },
+  "scripts": {},
+  "author": {
+    "name": "Ngan Kilo",
+    "email": "ngankilo.dev@gmail.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "app-module-path": "^2.2.0",
+    "bcryptjs": "^2.4.3",
+    "bluebird": "^3.5.1",
+    "chalk": "^2.4.1",
+    "commander": "^2.15.1",
+    "dotenv": "^5.0.1",
+    "knex": "^0.14.6",
+    "koa": "^2.5.1",
+    "koa-router": "^7.4.0",
+    "lodash": "^4.17.10",
+    "moment": "^2.22.1",
+    "mongodb": "^3.0.10",
+    "mssql": "^4.1.0",
+    "mysql": "^2.15.0",
+    "nodemailer": "^4.6.5",
+    "nunjucks": "^3.1.3",
+    "redis": "^2.8.0",
+    "verror": "^1.10.0",
+    "winston": "^2.4.2",
+    "winston-daily-rotate-file": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
